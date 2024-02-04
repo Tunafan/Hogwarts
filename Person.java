@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Person {
 
   private String firstName;
-  public String middleName;
+  private String middleName;
   private String lastName;
   private int age;
 

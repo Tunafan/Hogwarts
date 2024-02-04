@@ -18,6 +18,16 @@ public class Student extends Person {
     this.graduated = false;
   }
 
+  // constructor til fuldt navn skrevet i én string
+  public Student(String fullName, int enrollmentYear, int graduationYear) {
+    super(fullName);
+    this.enrollmentYear = enrollmentYear;
+    this.graduationYear = graduationYear;
+  }
+
+  // tom constructor
+  public Student() {}
+
   // Getters and Setters
 
   public int getEnrollmentYear() {
