@@ -14,6 +14,7 @@ public class Person {
     this(firstName, null, lastName);
   }
 
+  // (mellemnavn) constructor med på forhånd opdelte navne
   public Person(String firstName, String middleName, String lastName) {
     this.firstName = firstName;
     this.middleName = middleName;
