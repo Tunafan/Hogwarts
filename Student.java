@@ -49,15 +49,17 @@ public class Student extends Person {
     this.graduated = true;
   }
 
+  // override af superklassens metode
   @Override
   public String toString() {
-    String studentInfo = super.toString();
     return (
-      studentInfo +
-      ", enrolled: " +
+      super.toString() +
+      ", enrollmentYear: " +
       enrollmentYear +
-      ", graduation: " +
-      graduationYear
+      ", graduationYear: " +
+      graduationYear +
+      ", graduated: " +
+      graduated
     );
   }
 }
